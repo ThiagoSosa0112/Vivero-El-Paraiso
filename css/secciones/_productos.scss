@@ -1,0 +1,124 @@
+.fotos{
+    margin-top: 50px; 
+    width: 100%;
+    grid-area: contenido;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px; 
+    justify-self: center;
+    align-items: center;
+    justify-items: center;
+}
+.card {
+   
+    margin-left: 10px;
+     width: 400px;
+     height: 400px;
+ }
+@mixin img-productos {
+    width: 400px;
+    height: 300px;
+} 
+ .card-img-1{
+   @include img-productos;
+}
+.card-img-2{
+
+@include img-productos; }
+.card-img-3{
+  @include img-productos;
+}
+.card-img-4{
+  @include img-productos;
+}
+.card-img-5{
+  @include img-productos;
+}
+.card-img-6{
+   @include img-productos;
+}
+.card-img-7{
+  @include img-productos;
+}
+.card-img-8{
+  @include img-productos;
+}
+.card-img-9{
+   @include img-productos;
+}
+.card-img-10{
+   @include img-productos;
+}
+.card-img-11{
+  @include img-productos;
+}
+.card-img-12{
+   @include img-productos;
+}
+.card-img-13{
+    @include img-productos;
+}
+.card-img-14{
+  @include img-productos;
+}
+.card-img-15{
+  @include img-productos;
+}
+.card-img-16{
+ @include img-productos;
+}
+.card-img-17{
+   @include img-productos;
+}
+.card-img-18{
+ @include img-productos;
+}
+.card-img-19{
+    @include img-productos;
+}
+.card-img-20{
+   @include img-productos;
+}
+
+.card-img-21{
+  @include img-productos;
+}
+.card-img-22{
+ @include img-productos;
+}
+.card-img-23{
+    @include img-productos;
+}
+.card-img-24{
+  @include img-productos;
+}
+.card-img-25{
+  @include img-productos;
+}
+.card-img-26{
+   @include img-productos;
+}
+.card-img-27{
+   @include img-productos;
+}
+.card-img-28{
+    @include img-productos;
+}
+.card-img-29{
+ @include img-productos;
+}
+.card-img-30{
+ @include img-productos;
+}
+
+ .card-body{
+    width: 100%;
+    height: 100px;
+  }
+  .pagination{
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}

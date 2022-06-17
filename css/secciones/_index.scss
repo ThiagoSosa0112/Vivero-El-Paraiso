@@ -1,0 +1,42 @@
+.contenido {
+    grid-area: contenido;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    & img  {
+        width: 40%;
+        height: 80%;
+        margin-left: 55%;
+        margin-top: 5%;
+        object-fit: cover;
+    }
+}
+.clearfix{
+    margin-top: 20px;
+}
+.parrafo-inicio{
+    font-size: 1.5rem;
+}
+.ubicacion{
+    border-top: solid 20px gray;
+    border-bottom: solid 20px gray;
+    background-color: grey;
+    display: block;
+    justify-content: center;
+    font-size: 2.5rem;
+    justify-self: center;
+    align-items: center;
+}
+.ubicacion-txt{
+    text-align: center;
+}
+.mapa-vivero{
+    display: flex;
+    justify-content: center;
+    & img{
+        height: 400px;
+         width: 65%;
+     }
+}
+

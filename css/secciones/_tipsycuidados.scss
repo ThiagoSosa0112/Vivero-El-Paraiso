@@ -1,0 +1,26 @@
+.tips{
+    margin-top: 20px;
+    width: 100%;
+}
+.tipo{
+    color: green;
+}
+.tip-img{
+    display: flex;
+    justify-content: center;
+& img{
+    height: 400px;
+}
+}
+.tip-txt{
+    grid-area: contenido;
+    width: 100%;
+    margin-top: 20px;
+    text-align: justify;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.2rem;
+}
+.decoracion{
+    color: black;
+    font-size: 1.4rem;
+}

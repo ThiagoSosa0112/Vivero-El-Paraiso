@@ -1,0 +1,15 @@
+
+.contenido {
+    grid-area: contenido;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+.contact {
+    margin-top: 10%;
+    border-top: solid 5px red;
+    border-right: solid 5px red;
+    border-bottom: solid 5px red;
+    border-left: solid 5px red;
+}

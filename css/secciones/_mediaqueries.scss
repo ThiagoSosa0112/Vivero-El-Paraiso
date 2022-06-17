@@ -1,0 +1,260 @@
+@media screen and (max-width: 432px) {
+
+
+    @mixin width-media {
+        width: 100%;
+    }
+    .principal{
+       @include width-media;
+    }
+    .ubicacion{
+        @include width-media;@include width-media;
+        font-size: 1.8rem;
+    }
+    .contenido{
+       @include width-media;
+    }
+    .mapa-vivero{
+        @include width-media;
+    }
+    .mapa-vivero img{
+       height: 200px;
+         @include width-media;
+     }
+
+    #foto-inicio{
+        @include width-media;
+        height: 150px;
+        margin-left: 0px;
+        margin: 0%;
+        margin-right: 0%;
+    }
+    .parrafo-inicio{
+        text-align: justify;
+        font-size: 0.9rem;
+     @include width-media;
+    
+    }
+
+
+
+
+
+
+
+    .tip-img img{
+      @include width-media;
+       height: 200px;
+    }
+    .decoracion{
+        color: black;
+        font-size: 0.9rem;
+    }
+
+
+    .tip-txt{
+        grid-area: contenido;
+       @include width-media;
+        margin-top: 20px;
+        text-align: justify;
+        font-family: 'Mukta', sans-serif;
+        font-size: 0.8rem;
+    }
+    .contact {
+        margin-top: 10%;
+        border-top: solid 5px red;
+        border-right: solid 5px red;
+        border-bottom: solid 5px red;
+        border-left: solid 5px red;
+    }
+    
+  /* galeria */     
+  .empleados{    
+        height: 100%;
+        @include width-media;
+        margin-top: 50px; 
+        grid-area: contenido;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px; 
+        justify-self: center;
+        align-items: center;
+        justify-items: center;
+    }
+    .card{
+        grid-area: contenido;
+        grid-row: initial;
+        @include width-media;
+        justify-content: center;
+        justify-self: center;
+        align-items: center;
+        margin-right: 20px  ;
+    }
+   
+    .slide{
+        grid-area: contenido;
+        justify-content: center;
+        justify-self: center;
+        align-items: center;
+        margin-top: 25px;
+        @include width-media;
+       height: auto;
+        padding: 0px;
+    }
+    #img-carrusel{
+       @include width-media;
+        height: 250px;
+        grid-area: contenido;
+        justify-content: center;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .card-body{
+      @include width-media;
+      height: 100px;
+    }
+    /* productos */
+    @mixin media-producto {
+        width: 99%;
+    }
+    .card-img-1{
+        @include media-producto;
+     }
+     .card-img-2{
+        @include media-producto;
+     }
+     .card-img-3{
+         @include media-producto;
+     }
+     .card-img-4{
+        @include media-producto;
+     }
+     .card-img-5{
+        @include media-producto;
+     }
+     .card-img-6{
+        @include media-producto;
+     }
+     .card-img-7{
+       @include media-producto;
+     }
+     .card-img-8{
+         @include media-producto;
+     }
+     .card-img-9{
+       @include media-producto;
+     }
+     .card-img-10{
+         @include media-producto;
+     }
+     .card-img-11{
+        @include media-producto;
+     }
+     .card-img-12{
+        @include media-producto;
+     }
+     .card-img-13{
+          @include media-producto;
+     }
+     .card-img-14{
+        @include media-producto;
+     }
+     .card-img-15{
+        @include media-producto;
+     }
+     .card-img-16{
+        @include media-producto;
+     }
+     .card-img-17{
+         @include media-producto;
+     }
+     .card-img-18{
+        @include media-producto;
+     }
+     .card-img-19{
+        @include media-producto;
+     }
+     .card-img-20{
+        @include media-producto;
+     }
+     
+     .card-img-21{
+         @include media-producto;
+     }
+     .card-img-22{
+         @include media-producto;
+     }
+     .card-img-23{
+         @include media-producto;
+     }
+     .card-img-24{
+       @include media-producto;
+     }
+     .card-img-25{
+         @include media-producto;
+     }
+     .card-img-26{
+        @include media-producto;
+     }
+     .card-img-27{
+         @include media-producto;
+     }
+     .card-img-28{
+         @include media-producto;
+     }
+     .card-img-29{
+         @include media-producto;
+     }
+     .card-img-30{
+          @include media-producto;
+     }
+    .fotos {
+        height: 100%;
+       @include width-media;
+        margin-top: 50px; 
+        grid-area: contenido;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px;
+        justify-self: center;
+        align-items: center;
+        justify-items: center;
+        }
+        .card-body{
+           @include width-media;
+            height: 100px;
+          }
+          
+   
+       
+    .top {
+        background-image: url("https://i.pinimg.com/originals/75/29/fb/7529fb2aefd7445fd4fa827ce1bbe0a7.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       @include width-media;
+        font-size: 0.8em;
+    }
+    
+    .red-social{
+        list-style: none;
+    }
+ 
+ 
+    
+    footer{
+        background-color: black;
+        grid-area: footer;
+        @include width-media;
+        text-align: center;
+        font-family: 'Mukta', sans-serif;
+        font-size: 0.8em;
+        
+        }
+        
+     
+
+ }
