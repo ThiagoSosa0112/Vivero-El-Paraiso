@@ -1,0 +1,9 @@
+[
+    {"title": "Helecho", "description": "Planta de interior", "price": 1250, "img": "../media/producto7.jpeg", "id":1},
+    {"title": "Bromelia", "description": "Planta de exterior", "price": 750, "img": "../media/producto8.jpeg", "id":2},
+    {"title": "Bonsai", "description": "Planta de exterior", "price": 600, "img": "../media/producto9.jpeg", "id":3},
+    {"title": "Acebo", "description": "Planta de interior", "price": 700, "img": "../media/producto10.jpeg", "id":4},
+    {"title": "Aralia", "description": "Planta de exterior", "price": 450, "img": "../media/producto11.jpeg", "id":5},
+    {"title": "Boniato", "description": "Planta de interior", "price": 850, "img": "../media/producto12.jpeg", "id":6}
+
+]

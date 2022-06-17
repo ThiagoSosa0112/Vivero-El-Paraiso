@@ -1,0 +1,9 @@
+[
+    {"title": "Aloe", "description": "Planta de interior", "price": 550, "img": "../media/producto1.jpeg", "id":1},
+    {"title": "Palmera", "description": "Planta de exterior", "price": 450, "img": "../media/producto2.jpeg", "id":2},
+    {"title": "Cactus", "description": "Planta de interior", "price": 950, "img": "../media/producto3.jpeg", "id":3},
+    {"title": "Alegria", "description": "Planta de interior", "price": 750, "img": "../media/producto4.jpeg", "id":4},
+    {"title": "Maceta", "description": "Planta de interior", "price": 650, "img": "../media/producto5.jpeg", "id":5},
+    {"title": "Tulipan", "description": "Planta de interior", "price": 850, "img": "../media/producto6.jpeg", "id":6}
+
+]

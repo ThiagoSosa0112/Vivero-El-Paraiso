@@ -1,0 +1,5 @@
+[
+{"nombre": "Alan", "descripcion":"Él es Alan, atiende a los clientes",  "img": "../media/gustavo.webp"},
+{"nombre": "Jessica", "descripcion":"Ella es Jessica, encargada del vivero",  "img": "../media/emilia.jpg"},
+{"nombre": "Gonzalo", "descripcion":"Él es Gonzalo, encargado de los envíos del vivero",  "img": "../media/gustavo.webp"}
+]

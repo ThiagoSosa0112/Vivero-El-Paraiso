@@ -1,0 +1,9 @@
+[
+    {"title": "Bidens", "description": "Planta de interior", "price": 650, "img": "../media/producto13.jpeg", "id":1},
+    {"title": "Galanga", "description": "Planta de exterior", "price": 550, "img": "../media/producto14.jpeg", "id":2},
+    {"title": "Hinojo", "description": "Planta de exterior", "price": 400, "img": "../media/producto15.jpeg", "id":3},
+    {"title": "Lima", "description": "Planta de interior", "price": 720, "img": "../media/producto16.jpeg", "id":4},
+    {"title": "Linaria", "description": "Planta de exterior", "price": 250, "img": "../media/producto17.jpeg", "id":5},
+    {"title": "Olivo", "description": "Planta de interior", "price": 2010, "img": "../media/producto18.jpeg", "id":6}
+
+]
